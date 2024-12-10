@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Setting;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -20,5 +21,7 @@ class DatabaseSeeder extends Seeder
             'email' => 'admin@abuubaidah.com',
             'password' => bcrypt('@rahasiaNegar4!'),
         ]);
+
+        Setting::create(['is_active' => true]);
     }
 }

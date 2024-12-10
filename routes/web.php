@@ -9,11 +9,8 @@ Route::get('/', function () {
     return redirect()->route('login');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
-
 Route::middleware('auth')->group(function () {
+    Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
     Route::get('/terminal', [DashboardController::class, 'terminal'])->name('terminal');
     Route::post('/toggle-status', [ProjectManagementController::class, 'toggleStatus'])->name('toggleProjectStatus');
 
