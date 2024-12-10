@@ -17,7 +17,7 @@ class DashboardController extends Controller
         $isActive = Setting::findOrFail(1);
         $isActive = $isActive->value('is_active');
 
-        // dd($isActive);
+        dd($isActive);
         return view('dashboard', compact('isActive'));
     }
 }
