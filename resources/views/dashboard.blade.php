@@ -118,14 +118,15 @@
                             <input type="hidden" name="is_active" id="is_active" value="{{ $isActive ? 1 : 0 }}">
                             <label class="toggle-wrapper">
                               <input type="checkbox" id="is_active_toggle" class="toggle-checkbox"
-                                {{ $isActive ? 'checked' : '' }}
+                                @if ($isActive) checked @endif
                                 onchange="document.getElementById('is_active').value = this.checked ? 1 : 0; document.getElementById('toggle-form').submit();">
                               <span class="toggle-slider"></span>
                             </label>
                           </form>
 
                         </td>
-                        <td class="text-center"><a href="{{ route('terminal') }}" class="btn btn-primary btn-sm">Access Terminal</a></td>
+                        <td class="text-center"><a href="{{ route('terminal') }}" class="btn btn-primary btn-sm">Access
+                            Terminal</a></td>
                       </tr>
                     </tbody>
                   </table>
