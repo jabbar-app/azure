@@ -10215,7 +10215,7 @@ progress {
   --bs-table-active-color: var(--bs-emphasis-color);
   --bs-table-active-bg: rgba(var(--bs-emphasis-color-rgb), 0.1);
   --bs-table-hover-color: var(--bs-emphasis-color);
-  --bs-table-hover-bg: #f2edf3;
+  --bs-table-hover-bg: #e4f5ff;
   width: 100%;
   margin-bottom: 1rem;
   vertical-align: top;
@@ -14244,7 +14244,7 @@ textarea.is-invalid.tt-hint, .select2-container--default .select2-selection--sin
   --bs-modal-padding: 0.937rem;
   --bs-modal-margin: 10px;
   --bs-modal-color: ;
-  --bs-modal-bg: #f2edf3;
+  --bs-modal-bg: #e4f5ff;
   --bs-modal-border-color: #ebedf2;
   --bs-modal-border-width: 1px;
   --bs-modal-border-radius: var(--bs-border-radius-lg);
@@ -21344,7 +21344,7 @@ code {
 
 /* Footer */
 .footer {
-  background: #f2edf3;
+  background: #e4f5ff;
   color: color(dark);
   border-top: 1px solid #e7dee9;
   padding: 30px 1rem;
@@ -26403,7 +26403,7 @@ dl li {
   border-radius: 2px;
   padding: 20px;
   position: relative;
-  background: #f2edf3;
+  background: #e4f5ff;
   border-radius: 6px;
   box-shadow: 1px 2px 35px 0 rgba(1, 1, 1, 0.1);
   width: 35%;
@@ -29654,7 +29654,7 @@ div.tagsinput span.tag a {
   color: #fff;
 }
 .wizard > .content {
-  background: #f2edf3;
+  background: #e4f5ff;
   display: block;
   margin: 0.5em;
   min-height: 24em;
@@ -30046,7 +30046,7 @@ div.tagsinput span.tag a {
 .auth.multi-step-login {
   height: 100%;
   min-height: 100vh;
-  background: #f2edf3;
+  background: #e4f5ff;
 }
 .auth.multi-step-login .step-form {
   position: relative;
@@ -30812,7 +30812,7 @@ footer h4 a, footer .h4 a {
   color: #9c9fa6;
 }
 .chat-app-wrapper .chat-container-wrapper .chat-bubble.incoming-chat .chat-message {
-  background: #f2edf3;
+  background: #e4f5ff;
   margin-left: 45px;
 }
 .chat-app-wrapper .chat-container-wrapper .chat-bubble.incoming-chat .sender-details .seen-text {
@@ -31403,7 +31403,7 @@ footer h4 a, footer .h4 a {
   right: 10px;
   z-index: 99;
   padding: 5px;
-  background: #f2edf3;
+  background: #e4f5ff;
   border-radius: 4px;
   box-shadow: 0px 0px 15px -2px rgba(0, 0, 0, 0.4);
 }
@@ -31462,7 +31462,7 @@ footer h4 a, footer .h4 a {
   right: 96%;
   z-index: 99;
   padding: 5px;
-  background: #f2edf3;
+  background: #e4f5ff;
   border-radius: 4px;
   box-shadow: 0px 0px 15px -2px rgba(0, 0, 0, 0.4);
 }
@@ -32654,7 +32654,7 @@ footer h4 a, footer .h4 a {
 }
 
 .content-wrapper {
-  background: #f2edf3;
+  background: #e4f5ff;
   padding: 2.75rem 2.25rem;
   width: 100%;
   -webkit-flex-grow: 1;

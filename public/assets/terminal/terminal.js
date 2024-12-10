@@ -3,7 +3,7 @@ let projAsk = false;
 let lastCommands = [];
 
 const COMMANDS = {
-  update: `Warning! Project will be updated, everything's unchanged will be replaced. Are you sure to continue? (Y/N)`,
+  update: `Warning! Project will be updated, everything's unchanged will be replaced. Are you sure to continue? (Continue)`,
   Y: `Project is updating. Please make sure you've already backed up your data.`,
   N: `Project update is canceled.`,
 };
@@ -119,8 +119,8 @@ class Terminal extends HTMLElement {
       <div class="terminal-window primary-bg" onclick="document.getElementById('dummyKeyboard').focus();">
         <div class="terminal-output" id="terminalOutput">
           <div class="terminal-line">
-            <span class="help-msg">Type <span class="help">update</span> to update the project.</span>
-              Cannot be undo!<br>
+            <span class="help-msg">Please manage your <span class="help">abuubaidah</span>'s project carefully.</span>
+              Welcome!<br>
           </div>
         </div>
         <div class="terminal-line">
