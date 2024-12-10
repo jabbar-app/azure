@@ -113,11 +113,11 @@
               <i class="mdi mdi-power"></i>
             </a> --}}
           </li>
-          <li class="nav-item nav-settings d-none d-lg-flex">
+          {{-- <li class="nav-item nav-settings d-none d-lg-flex">
             <a class="nav-link" href="#">
               <i class="mdi mdi-format-line-spacing"></i>
             </a>
-          </li>
+          </li> --}}
         </ul>
         <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
           data-toggle="horizontal-menu-toggle">
